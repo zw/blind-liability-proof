@@ -406,8 +406,8 @@ deterministic algorithm:
 This ensures that the root hash for the tree is deterministic and predictable
 which makes tests shareable.
 
-<a name="stz-bug" class="anchor" href="#stz-bug">
-[1]: Note that there's a [bug in `BigDecimal.stripTrailingZeros`][6480539] in
+<a name="stz-bug" class="anchor" href="#stz-bug">[1]:</a>
+Note that there's a [bug in `BigDecimal.stripTrailingZeros`][6480539] in
 JDK <8 where `0.000` doesn't change.
 
  [perfect]: https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees
