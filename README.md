@@ -406,7 +406,9 @@ deterministic algorithm:
 This ensures that the root hash for the tree is deterministic and predictable
 which makes tests shareable.
 
-<span id="stz-bug">[1]:</span> Note that there's a [bug in
+<div id="stz-bug">[1]:</div>
+
+<p id="stz-bug">[1]:</p> Note that there's a [bug in
 `BigDecimal.stripTrailingZeros`][6480539] in JDK <8 where `0.000` doesn't
 change.
 
