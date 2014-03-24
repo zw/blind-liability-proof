@@ -407,7 +407,11 @@ This ensures that the root hash for the tree is deterministic and predictable
 which makes tests shareable.
 
 <div id="stz-bug">[1]:</div>
+<div name="stz-bug">[1]:</div>
+<span id="stz-bug">[1]:</div>
+<span name="stz-bug">[1]:</div>
 
+<p name="stz-bug">[1]:</p> Note that there's a [bug in
 <p id="stz-bug">[1]:</p> Note that there's a [bug in
 `BigDecimal.stripTrailingZeros`][6480539] in JDK <8 where `0.000` doesn't
 change.
